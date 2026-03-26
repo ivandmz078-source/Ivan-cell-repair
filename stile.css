@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body { font-family: 'Inter', sans-serif; }
+
+.hero-bg { background: linear-gradient(135deg, #0a0a0a 0%, #001f3f 100%); }
+
+.service-card {
+  background: #111;
+  padding: 2.5rem 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 30px 40px -15px rgb(0 102 255 / 0.3);
+}
